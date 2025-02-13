@@ -1,25 +1,10 @@
-body{
-    font-family: Arial,sans-serif;
+.counter-container{
+    background-color: brown;
+    text-decoration: blue;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-}
-nav{
-    background: black;
-    padding:10px;
-}
-nav a{
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-.container{
-    margin: 50px auto;
-    max-width: 600px;
-    background: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
-    display: flex;
-    justify-content: space-evenly;
+    border: 1px solid hsl(25,69%,69%);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+
 }

@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="alert.html">Alert</a>
-        <a href="dom.html">dom manipulation</a>
-        <a href="event.html">Event</a>
-        <a href="form.html">Form</a>
-        <a href="array.html">Array</a>
-        <a href="if else.html">if else</a>
-    </nav>
-    <div class="container">
-        <h1>welcome to basic Javascript site</h1>
-        <p>Click the links above to explore Javascript functionalities.</p>
+    
+        <div class="counter-container">
+        <h2>Counter App</h2>
+        <p id="count"></p>
+       <button id="increase"onclick="increaseCount()">Increase</button>
+       <button id="decrease"onclick="decreaseCount()">Decrease</button>
+       <button id="reset"onclick="resetCount()">Reset</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
